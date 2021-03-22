@@ -1,7 +1,9 @@
 # sprinboot-scheduling-demo
-@EnableScheduling annotation is used to enable the scheduler for application.
+<B>@EnableScheduling annotation is used to enable the scheduler for application.</B><BR>
+<B>@Scheduled(cron = "0 * 9 * * ?") used to set cron job using expression</B>
 <BR>
-Expression	Means<BR>
+
+<B>Expression	Means</B><BR>
 0 0 12 * * ?	Fire at 12:00 PM (noon) every day<BR>
 0 15 10 ? * *	Fire at 10:15 AM every day<BR>
 0 15 10 * * ?	Fire at 10:15 AM every day<BR>
@@ -21,3 +23,5 @@ Expression	Means<BR>
 0 15 10 ? * 6#3	Fire at 10:15 AM on the third Friday of every month<BR>
 0 0 12 1/5 * ?	Fire at 12 PM (noon) every 5 days every month, starting on the first day of the month<BR>
 0 11 11 11 11 ?	Fire every November 11 at 11:11 AM
+<BR>
+ 
